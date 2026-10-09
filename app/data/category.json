@@ -1,0 +1,16 @@
+{
+    "common": {
+    "contactInfo": {
+      "addressLine1": "1234 Main Street, Suite 100",
+      "addressLine2": "Springfield, IL 62701, USA",
+      "phone": "+1 00000000",
+      "phoneUrl": "tel:+100000000",
+      "email": "info@xyz.com"
+    },
+    "footer":{
+        "logo":"/common/northvale-capital-logo-white.png",
+        "logoAlt":"Northvale Capital"
+
+    }
+}
+}
