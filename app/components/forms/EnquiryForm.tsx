@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, type FormEvent, type ReactNode } from "react";
-import { services } from "@/app/data/services";
+import { services } from "@/app/data/category";
 import { ArrowRight, Building, ChevronDown, Lock, Mail, MapPin, Message, Phone, User } from "../ui/Icons";
 
 const cities = ["Mumbai", "Delhi NCR", "Bengaluru", "Pune", "Hyderabad", "Chennai", "Ahmedabad", "Kolkata", "Other"];

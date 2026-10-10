@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { site } from "../data/site";
+import { site } from "../data/category";
 import PageBanner from "../components/ui/PageBanner";
 import SectionHeading from "../components/ui/SectionHeading";
 import IconBadge from "../components/ui/IconBadge";

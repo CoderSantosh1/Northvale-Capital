@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import type { TeamMember } from "@/app/data/team";
+import type { TeamMember } from "@/app/data/category";
 import { ArrowRight } from "../ui/Icons";
 
 export default function TeamCard({ member }: { member: TeamMember }) {

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { processSteps } from "@/app/data/site";
+import { processSteps } from "@/app/data/category";
 import SectionHeading from "../ui/SectionHeading";
 
 export default function ProcessSection() {

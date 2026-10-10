@@ -1,4 +1,4 @@
-import { blogs } from "@/app/data/blogs";
+import { blogs } from "@/app/data/category";
 import BlogCard from "../cards/BlogCard";
 import ButtonLink from "../ui/ButtonLink";
 import SectionHeading from "../ui/SectionHeading";

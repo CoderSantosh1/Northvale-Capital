@@ -4,7 +4,7 @@ import "./globals.css";
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
 import JsonLd from "./components/seo/JsonLd";
-import { site } from "./data/site";
+import { site } from "./data/category";
 
 const jakarta = Plus_Jakarta_Sans({
   variable: "--font-jakarta",

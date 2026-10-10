@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { bankingPartners } from "../data/partners";
+import { bankingPartners } from "../data/category";
 import PageBanner from "../components/ui/PageBanner";
 import { SplitHeading } from "../components/ui/SectionHeading";
 

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useCallback, useEffect, useRef, useState } from "react";
-import type { Testimonial } from "@/app/data/testimonials";
+import type { Testimonial } from "@/app/data/category";
 import { Quote } from "../ui/Icons";
 import { Stars } from "../cards/TestimonialCard";
 

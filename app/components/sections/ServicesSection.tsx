@@ -1,4 +1,4 @@
-import { featuredServices } from "@/app/data/services";
+import { featuredServices } from "@/app/data/category";
 import ServiceCard from "../cards/ServiceCard";
 import ButtonLink from "../ui/ButtonLink";
 import SectionHeading from "../ui/SectionHeading";

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { faqs } from "../data/faqs";
+import { faqs } from "../data/category";
 import PageBanner from "../components/ui/PageBanner";
 import { SplitHeading } from "../components/ui/SectionHeading";
 import ButtonLink from "../components/ui/ButtonLink";

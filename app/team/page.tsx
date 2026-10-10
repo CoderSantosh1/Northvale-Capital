@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { team } from "../data/team";
+import { team } from "../data/category";
 import PageBanner from "../components/ui/PageBanner";
 import { SplitHeading } from "../components/ui/SectionHeading";
 import TeamCard from "../components/cards/TeamCard";

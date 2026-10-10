@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { quickLinks, site } from "@/app/data/site";
-import { services } from "@/app/data/services";
+import { quickLinks, services, site } from "@/app/data/category";
 import { ChevronRight, Clock, Mail, MapPin, Phone } from "../ui/Icons";
 import SocialLinks from "../ui/SocialLinks";
 import ScrollTopButton from "./ScrollTopButton";

@@ -1,8 +1,5 @@
 import type { MetadataRoute } from "next";
-import { site } from "./data/site";
-import { services } from "./data/services";
-import { team } from "./data/team";
-import { blogs } from "./data/blogs";
+import { blogs, services, site, team } from "./data/category";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const pages = [

@@ -1,4 +1,4 @@
-import { site } from "@/app/data/site";
+import { site } from "@/app/data/category";
 import { Mail, MapPin, Phone } from "../ui/Icons";
 import SocialLinks from "../ui/SocialLinks";
 

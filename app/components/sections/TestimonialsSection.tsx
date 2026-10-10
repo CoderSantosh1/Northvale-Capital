@@ -1,4 +1,4 @@
-import { testimonials } from "@/app/data/testimonials";
+import { testimonials } from "@/app/data/category";
 import ButtonLink from "../ui/ButtonLink";
 import SectionHeading from "../ui/SectionHeading";
 import TestimonialsSlider from "./TestimonialsSlider";

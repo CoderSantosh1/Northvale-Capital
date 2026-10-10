@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { formatBlogDate, type BlogPost } from "@/app/data/blogs";
+import { formatBlogDate, type BlogPost } from "@/app/data/category";
 import { ArrowRight } from "../ui/Icons";
 
 export default function BlogCard({ post }: { post: BlogPost }) {

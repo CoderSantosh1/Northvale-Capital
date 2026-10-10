@@ -1,7 +1,12 @@
-import { stats } from "@/app/data/site";
+import { stats } from "@/app/data/category";
+import type { IconName } from "@/types";
 import { Growth, Presentation, Users } from "../ui/Icons";
 
-const icons = { users: Users, presentation: Presentation, growth: Growth };
+const icons: Record<IconName, typeof Users> = {
+  users: Users,
+  presentation: Presentation,
+  growth: Growth,
+};
 
 export default function StatsBar() {
   return (

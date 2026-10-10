@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { site } from "@/app/data/site";
+import { site } from "@/app/data/category";
 import ButtonLink from "../ui/ButtonLink";
 import TopBar from "./TopBar";
 import NavMenu from "./NavMenu";

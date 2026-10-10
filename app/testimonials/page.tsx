@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { testimonials } from "../data/testimonials";
+import { testimonials } from "../data/category";
 import PageBanner from "../components/ui/PageBanner";
 import { SplitHeading } from "../components/ui/SectionHeading";
 import TestimonialCard from "../components/cards/TestimonialCard";

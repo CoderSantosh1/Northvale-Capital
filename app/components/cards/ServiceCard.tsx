@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import type { Service } from "@/app/data/services";
+import type { Service } from "@/app/data/category";
 import { ArrowRight } from "../ui/Icons";
 
 export default function ServiceCard({ service }: { service: Service }) {

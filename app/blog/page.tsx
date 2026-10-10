@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { blogs } from "../data/blogs";
+import { blogs } from "../data/category";
 import PageBanner from "../components/ui/PageBanner";
 import SectionHeading from "../components/ui/SectionHeading";
 import BlogCard from "../components/cards/BlogCard";

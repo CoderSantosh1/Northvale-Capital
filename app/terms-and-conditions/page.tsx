@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { site } from "../data/site";
+import { site } from "../data/category";
 import PageBanner from "../components/ui/PageBanner";
 import LegalContent from "../components/sections/LegalContent";
 

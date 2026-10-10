@@ -1,4 +1,4 @@
-import { site } from "@/app/data/site";
+import { site } from "@/app/data/category";
 import { Facebook, Instagram, Linkedin, Youtube } from "./Icons";
 
 const items = [

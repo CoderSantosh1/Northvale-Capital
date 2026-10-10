@@ -1,5 +1,5 @@
 {
-    "common": {
+  "common": {
     "contactInfo": {
       "addressLine1": "1234 Main Street, Suite 100",
       "addressLine2": "Springfield, IL 62701, USA",
@@ -7,10 +7,542 @@
       "phoneUrl": "tel:+100000000",
       "email": "info@xyz.com"
     },
-    "footer":{
-        "logo":"/common/northvale-capital-logo-white.png",
-        "logoAlt":"Northvale Capital"
-
+    "footer": {
+      "logo": "/common/northvale-capital-logo-white.png",
+      "logoAlt": "Northvale Capital"
     }
-}
+  },
+  "site": {
+    "name": "NorthVale Capital",
+    "legalName": "NorthVale Capital Pvt. Ltd.",
+    "tagline": "Plan Today | Grow Tomorrow",
+    "url": "https://www.northvalecapital.com",
+    "description": "NorthVale Capital helps individuals and businesses build, protect and grow their wealth with expert investment advisory, financial planning and personalised wealth management solutions.",
+    "phone": "+91 98765 43210",
+    "phoneHref": "tel:+919876543210",
+    "email": "info@northvalecapital.com",
+    "city": "Mumbai, India",
+    "address": {
+      "line1": "414, Oberoi Commerz II,",
+      "line2": "Near Oberoi Mall, Goregaon (East),",
+      "line3": "Mumbai - 400063, India"
+    },
+    "hours": "Mon - Sat: 9:00 AM - 6:00 PM",
+    "mapEmbed": "https://www.google.com/maps?q=Oberoi+Commerz+II,+Goregaon+East,+Mumbai+400063&output=embed",
+    "social": {
+      "linkedin": "https://www.linkedin.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "youtube": "https://www.youtube.com/"
+    }
+  },
+  "mainNav": [
+    { "label": "Home", "href": "/" },
+    { "label": "About Us", "href": "/about" },
+    { "label": "Team", "href": "/team", "dropdown": "team" },
+    { "label": "Services", "href": "/services", "dropdown": "services" },
+    { "label": "Partners", "href": "/banking-partners" },
+    { "label": "Blog", "href": "/blog" },
+    { "label": "FAQs", "href": "/faqs" },
+    { "label": "Contact Us", "href": "/contact" }
+  ],
+  "quickLinks": [
+    { "label": "Home", "href": "/" },
+    { "label": "About Us", "href": "/about" },
+    { "label": "Our Team", "href": "/team" },
+    { "label": "Services", "href": "/services" },
+    { "label": "Partners", "href": "/banking-partners" },
+    { "label": "Blog", "href": "/blog" },
+    { "label": "FAQs", "href": "/faqs" },
+    { "label": "Contact Us", "href": "/contact" }
+  ],
+  "stats": [
+    { "value": "500+", "label": "Happy Clients", "icon": "users" },
+    { "value": "15+", "label": "Years of Experience", "icon": "presentation" },
+    { "value": "₹2,000+ Cr", "label": "Assets Under Advisory", "icon": "growth" }
+  ],
+  "processSteps": [
+    {
+      "title": "Understand Your Goals",
+      "text": "We learn about your needs, priorities and future aspirations."
+    },
+    {
+      "title": "Create a Strategy",
+      "text": "We design a tailored financial plan to match your goals."
+    },
+    {
+      "title": "Implement Solutions",
+      "text": "We put the right investment strategies into action."
+    },
+    {
+      "title": "Monitor & Grow",
+      "text": "We review, adapt and help you stay on track for long-term success."
+    }
+  ],
+  "services": [
+    {
+      "slug": "wealth-management",
+      "title": "Wealth Management",
+      "summary": "Personalized strategies to help you grow and preserve your wealth for the long term.",
+      "image": "/services/wealth-management.jpg",
+      "detailImage": "/services-details/strategic-wealth-management.jpg",
+      "imageAlt": "Stacks of gold coins rising with a growth arrow representing wealth management",
+      "headline": ["Strategic Wealth Management", "for a Brighter Tomorrow"],
+      "overview": [
+        "Our **Wealth Management** service is designed to help you grow, preserve, and transfer your wealth with confidence. At NorthVale Capital, we take a personalised approach to understand your financial goals, risk appetite, and time horizon, and then create tailored strategies to build long-term financial security.",
+        "Whether you are planning for retirement, funding your child's education, or looking to create generational wealth, our experienced advisors provide expert guidance and comprehensive solutions to help you make informed decisions."
+      ],
+      "benefits": [
+        { "icon": "growth", "title": "Personalised Strategies", "text": "Investment plans tailored to your unique goals." },
+        { "icon": "shield", "title": "Risk Management", "text": "Diversify and protect your wealth with expert guidance." },
+        { "icon": "users", "title": "Long-Term Growth", "text": "Build sustainable wealth for future generations." },
+        { "icon": "document", "title": "Expert Advisory", "text": "Access to seasoned professionals with deep market insights." }
+      ]
+    },
+    {
+      "slug": "financial-planning",
+      "title": "Financial Planning",
+      "summary": "Goal-based financial plans that bring clarity to your income, savings and investments.",
+      "image": "/blog/plan-your-finances.jpg",
+      "imageAlt": "Advisor preparing a financial plan with coins and a model house",
+      "headline": ["Goal-Based Financial Planning", "for Every Life Stage"],
+      "overview": [
+        "Our **Financial Planning** service brings structure and clarity to your money. We map your income, expenses, savings and liabilities, and then build a step-by-step plan that connects your everyday financial decisions to your long-term goals.",
+        "From buying a home and funding education to building an emergency corpus, we help you prioritise what matters most and review your plan regularly so it keeps pace with your life."
+      ],
+      "benefits": [
+        { "icon": "growth", "title": "Personalised Strategies", "text": "Investment plans tailored to your unique goals." },
+        { "icon": "shield", "title": "Risk Management", "text": "Diversify and protect your wealth with expert guidance." },
+        { "icon": "users", "title": "Long-Term Growth", "text": "Build sustainable wealth for future generations." },
+        { "icon": "document", "title": "Expert Advisory", "text": "Access to seasoned professionals with deep market insights." }
+      ]
+    },
+    {
+      "slug": "portfolio-advisory",
+      "title": "Portfolio Advisory",
+      "summary": "Expert guidance to help you make informed investment decisions aligned with your goals.",
+      "image": "/services/investment-advisory.jpg",
+      "imageAlt": "Investment advisor analysing a market chart with a pen",
+      "headline": ["Research-Driven Portfolio Advisory", "for Smarter Investing"],
+      "overview": [
+        "Our **Portfolio Advisory** service helps you build a diversified, well-balanced portfolio across equities, debt, mutual funds and alternative assets. Every recommendation is backed by research and aligned with your goals and risk profile.",
+        "We continuously monitor your investments, rebalance when markets shift, and keep you informed with clear, transparent reporting so you always know where you stand."
+      ],
+      "benefits": [
+        { "icon": "growth", "title": "Personalised Strategies", "text": "Investment plans tailored to your unique goals." },
+        { "icon": "shield", "title": "Risk Management", "text": "Diversify and protect your wealth with expert guidance." },
+        { "icon": "users", "title": "Long-Term Growth", "text": "Build sustainable wealth for future generations." },
+        { "icon": "document", "title": "Expert Advisory", "text": "Access to seasoned professionals with deep market insights." }
+      ]
+    },
+    {
+      "slug": "retirement-planning",
+      "title": "Retirement Planning",
+      "summary": "Plan today for a financially independent tomorrow with customized retirement solutions.",
+      "image": "/services/retirement-planning.jpg",
+      "imageAlt": "Jar of coins labelled retirement with a growing plant",
+      "headline": ["Retirement Planning", "for a Worry-Free Future"],
+      "overview": [
+        "Our **Retirement Planning** service helps you build the corpus you need to enjoy a financially independent retirement. We estimate your future expenses, account for inflation, and design a disciplined savings and investment plan to get you there.",
+        "As you approach retirement, we help you create a reliable income stream and protect your savings, so you can enjoy the years ahead with confidence and peace of mind."
+      ],
+      "benefits": [
+        { "icon": "growth", "title": "Personalised Strategies", "text": "Investment plans tailored to your unique goals." },
+        { "icon": "shield", "title": "Risk Management", "text": "Diversify and protect your wealth with expert guidance." },
+        { "icon": "users", "title": "Long-Term Growth", "text": "Build sustainable wealth for future generations." },
+        { "icon": "document", "title": "Expert Advisory", "text": "Access to seasoned professionals with deep market insights." }
+      ]
+    },
+    {
+      "slug": "tax-planning",
+      "title": "Tax Planning",
+      "summary": "Smart, compliant tax strategies that help you keep more of what you earn.",
+      "image": "/blog/manage-wealth-changing-economy.jpg",
+      "imageAlt": "Calculator, pen and financial reports used for tax planning",
+      "headline": ["Efficient Tax Planning", "to Maximise Your Returns"],
+      "overview": [
+        "Our **Tax Planning** service helps you reduce your tax liability legally and efficiently. We review your income sources and investments and recommend tax-saving instruments that also support your long-term financial goals.",
+        "With year-round planning instead of last-minute decisions, you can make the most of available deductions and exemptions while staying fully compliant."
+      ],
+      "benefits": [
+        { "icon": "growth", "title": "Personalised Strategies", "text": "Investment plans tailored to your unique goals." },
+        { "icon": "shield", "title": "Risk Management", "text": "Diversify and protect your wealth with expert guidance." },
+        { "icon": "users", "title": "Long-Term Growth", "text": "Build sustainable wealth for future generations." },
+        { "icon": "document", "title": "Expert Advisory", "text": "Access to seasoned professionals with deep market insights." }
+      ]
+    },
+    {
+      "slug": "estate-planning",
+      "title": "Estate & Planning",
+      "summary": "Protect your assets and create a lasting legacy for your loved ones.",
+      "image": "/services/estate-legacy-planning.jpg",
+      "imageAlt": "Model house beside stacked coins representing estate and legacy planning",
+      "headline": ["Estate & Legacy Planning", "to Protect What Matters"],
+      "overview": [
+        "Our **Estate & Legacy Planning** service ensures your wealth is transferred smoothly and according to your wishes. We help you organise your assets, nominations and succession plans to minimise disputes and delays.",
+        "Working alongside legal and tax professionals, we help you build a legacy that supports your family and the causes you care about for generations to come."
+      ],
+      "benefits": [
+        { "icon": "growth", "title": "Personalised Strategies", "text": "Investment plans tailored to your unique goals." },
+        { "icon": "shield", "title": "Risk Management", "text": "Diversify and protect your wealth with expert guidance." },
+        { "icon": "users", "title": "Long-Term Growth", "text": "Build sustainable wealth for future generations." },
+        { "icon": "document", "title": "Expert Advisory", "text": "Access to seasoned professionals with deep market insights." }
+      ]
+    }
+  ],
+  "bankingPartners": [
+    { "name": "HDFC Bank", "logo": "/banking-partners/hdfc-bank.jpg" },
+    { "name": "ICICI Bank", "logo": "/banking-partners/icici-bank.jpg" },
+    { "name": "State Bank of India", "logo": "/banking-partners/sbi.jpg" },
+    { "name": "Axis Bank", "logo": "/banking-partners/axis-bank.jpg" },
+    { "name": "Kotak Mahindra Bank", "logo": "/banking-partners/kotak-mahindra-bank.jpg" },
+    { "name": "IndusInd Bank", "logo": "/banking-partners/indusind-bank.jpg" },
+    { "name": "Yes Bank", "logo": "/banking-partners/yes-bank.jpg" },
+    { "name": "Standard Chartered", "logo": "/banking-partners/standard-chartered.jpg" },
+    { "name": "IDFC First Bank", "logo": "/banking-partners/idfc-first-bank.jpg" },
+    { "name": "HSBC", "logo": "/banking-partners/hsbc.jpg" }
+  ],
+  "faqs": [
+    {
+      "q": "What services does NorthVale Capital offer?",
+      "a": "We offer wealth management, financial planning, portfolio advisory, retirement planning, tax planning and estate & legacy planning for individuals, families and businesses."
+    },
+    {
+      "q": "How do I get started?",
+      "a": "Simply fill out the Enquire Now form or call us. One of our advisors will schedule a free consultation to understand your goals, current finances and risk appetite."
+    },
+    {
+      "q": "Is the first consultation free?",
+      "a": "Yes. Your first consultation is free and comes with no obligation. It helps us understand your needs and explain how we can help."
+    },
+    {
+      "q": "What is the minimum investment amount?",
+      "a": "There is no fixed minimum to start a conversation with us. We recommend solutions based on your goals, and our advisors will guide you on suitable amounts for each strategy."
+    },
+    {
+      "q": "How often will my portfolio be reviewed?",
+      "a": "We review portfolios regularly and conduct a detailed review with you at least once a year, or sooner if markets or your personal circumstances change significantly."
+    },
+    {
+      "q": "Is my personal and financial information secure?",
+      "a": "Absolutely. We follow strict confidentiality practices and never share your information with third parties without your consent."
+    },
+    {
+      "q": "Can you help with retirement and tax planning together?",
+      "a": "Yes. Our plans are holistic, so we align your retirement savings with tax-efficient investments to help you keep more of what you earn."
+    }
+  ],
+  "blogs": [
+    {
+      "slug": "smart-investment-strategies-for-long-term-wealth",
+      "title": "5 Smart Investment Strategies for Long-Term Wealth",
+      "headline": ["5 Smart Investment Strategies", "for Long-Term Wealth"],
+      "category": "Investment",
+      "date": "2025-09-12",
+      "author": "Admin",
+      "readTime": "6 Min Read",
+      "excerpt": "Discover practical investment strategies that can help you build and grow your wealth over time with reduced risk.",
+      "image": "/blog/smart-investment-strategies.jpg",
+      "coverImage": "/blog-details/smart-investment-strategies-long-term-wealth.jpg",
+      "imageAlt": "Seedlings growing on rising stacks of coins",
+      "intro": "Building long-term wealth is not about quick wins, but about making informed decisions, staying consistent, and following a strategy that aligns with your financial goals. Whether you are just starting your investment journey or looking to refine your portfolio, a well-planned approach can help you grow and protect your wealth over time. In this article, we share five smart investment strategies that can set you on the path to financial success.",
+      "points": [
+        {
+          "title": "Start Early and Stay Consistent",
+          "text": "Time is one of the most powerful tools when it comes to investing. The earlier you start, the more time your money has to grow through the power of compounding. Even small, regular investments can make a significant difference over the long term. Consistency helps you ride out market fluctuations and stay focused on your goals."
+        },
+        {
+          "title": "Diversify Your Portfolio",
+          "text": "A diversified portfolio reduces risk and helps you take advantage of different growth opportunities. By spreading your investments across asset classes such as equities, bonds, mutual funds, and real estate, you can balance potential returns with stability and protect your portfolio from market volatility."
+        },
+        {
+          "title": "Focus on Your Financial Goals",
+          "text": "Every investment decision should be aligned with your financial goals—whether it's buying a home, funding your child's education, planning for retirement, or building generational wealth. Having clear, realistic goals helps you choose the right investment products and stay committed to your plan."
+        },
+        {
+          "title": "Manage Risk Wisely",
+          "text": "Understanding your risk appetite is essential for long-term success. A well-balanced portfolio considers your financial goals, time horizon, and comfort with market fluctuations. Regular portfolio reviews and rebalancing ensure that your investments remain aligned with your risk profile."
+        },
+        {
+          "title": "Seek Professional Guidance",
+          "text": "Partnering with an experienced investment advisor can provide valuable insights and help you make informed decisions. A professional can analyse your financial situation, suggest suitable investment options, and guide you through changing market conditions, giving you confidence and peace of mind."
+        }
+      ],
+      "conclusion": "Investing for the long term is a disciplined and strategic journey. By starting early, diversifying your portfolio, focusing on your goals, managing risk, and seeking professional guidance, you can build a stronger and more secure financial future. At NorthVale Capital, we are committed to helping you make smarter investment decisions and achieve your long-term wealth goals."
+    },
+    {
+      "slug": "how-to-plan-your-finances-for-a-secure-future",
+      "title": "How to Plan Your Finances for a Secure Future",
+      "headline": ["How to Plan Your Finances", "for a Secure Future"],
+      "category": "Financial Planning",
+      "date": "2025-09-08",
+      "author": "Admin",
+      "readTime": "5 Min Read",
+      "excerpt": "A step-by-step guide to managing your income, expenses and savings for long-term financial security.",
+      "image": "/blog/plan-your-finances.jpg",
+      "coverImage": "/blog/plan-your-finances.jpg",
+      "imageAlt": "Advisor writing a financial plan beside coins and a model house",
+      "intro": "A secure financial future rarely happens by chance. It is the result of clear goals, smart habits and a plan you can actually follow. Here is a simple, step-by-step framework to help you take control of your income, expenses and savings.",
+      "points": [
+        {
+          "title": "Know Where Your Money Goes",
+          "text": "Track your income and expenses for a few months to understand your spending patterns. Separating needs from wants makes it easier to identify areas where you can save more without compromising your lifestyle."
+        },
+        {
+          "title": "Build an Emergency Fund",
+          "text": "Set aside three to six months of essential expenses in a liquid, low-risk option. An emergency fund protects your long-term investments from being disrupted by unexpected events such as job loss or medical needs."
+        },
+        {
+          "title": "Set Clear, Time-Bound Goals",
+          "text": "Define short, medium and long-term goals—such as a vacation, a home down payment or retirement—and attach a target amount and timeline to each. Clear goals make it easier to choose the right investment for each need."
+        },
+        {
+          "title": "Protect Yourself with Insurance",
+          "text": "Adequate term life and health insurance ensure that your family's finances are protected. Insurance should be seen as protection, not an investment, and should be in place before you start building wealth."
+        },
+        {
+          "title": "Review Your Plan Regularly",
+          "text": "Your life changes, and so should your financial plan. Review your progress at least once a year, and after major life events, to make sure your plan stays aligned with your goals."
+        }
+      ],
+      "conclusion": "Good financial planning brings clarity and confidence. With a clear budget, a safety net, defined goals and regular reviews, you can build a secure future step by step. Our advisors at NorthVale Capital are here to help you create a plan that fits your life."
+    },
+    {
+      "slug": "importance-of-retirement-planning-in-your-30s",
+      "title": "The Importance of Retirement Planning in Your 30s",
+      "headline": ["The Importance of Retirement", "Planning in Your 30s"],
+      "category": "Retirement",
+      "date": "2025-09-04",
+      "author": "Admin",
+      "readTime": "5 Min Read",
+      "excerpt": "Start early and enjoy a financially independent future. Learn why your 30s are the best time to plan for retirement.",
+      "image": "/blog/retirement-planning-in-your-30s.jpg",
+      "coverImage": "/blog/retirement-planning-in-your-30s.jpg",
+      "imageAlt": "Hand placing a coin into a piggy bank on a desk",
+      "intro": "Retirement may feel far away in your 30s, but this is exactly when planning for it delivers the biggest rewards. Starting now gives your money decades to grow and gives you the freedom to retire on your own terms.",
+      "points": [
+        {
+          "title": "Compounding Works Best Over Time",
+          "text": "The longer your money stays invested, the more it can grow. Investing a modest amount every month from your 30s can build a significantly larger corpus than investing a much larger amount starting in your 40s."
+        },
+        {
+          "title": "Account for Inflation",
+          "text": "Rising costs mean you will need far more money in the future to maintain the same lifestyle. A good retirement plan estimates your future expenses realistically and builds in protection against inflation."
+        },
+        {
+          "title": "Balance Multiple Priorities",
+          "text": "Your 30s often bring home loans, children's education and other commitments. Planning early helps you balance these goals without neglecting your retirement savings."
+        },
+        {
+          "title": "Use the Right Mix of Investments",
+          "text": "With a long time horizon, you can typically afford a higher allocation to growth assets such as equities, gradually shifting towards stability as retirement approaches."
+        },
+        {
+          "title": "Stay Disciplined",
+          "text": "Automating your investments and reviewing them annually helps you stay on track, avoid emotional decisions during market swings, and steadily move towards your retirement goal."
+        }
+      ],
+      "conclusion": "Planning for retirement in your 30s is one of the best financial decisions you can make. A small start today can lead to a comfortable, independent retirement tomorrow. Talk to NorthVale Capital to build a retirement plan tailored to you."
+    },
+    {
+      "slug": "tips-to-manage-your-wealth-in-a-changing-economy",
+      "title": "Tips to Manage Your Wealth in a Changing Economy",
+      "headline": ["Tips to Manage Your Wealth", "in a Changing Economy"],
+      "category": "Wealth Management",
+      "date": "2025-08-28",
+      "author": "Admin",
+      "readTime": "4 Min Read",
+      "excerpt": "Explore expert tips to protect and grow your wealth, even during market uncertainties and economic shifts.",
+      "image": "/blog/manage-wealth-changing-economy.jpg",
+      "coverImage": "/blog/manage-wealth-changing-economy.jpg",
+      "imageAlt": "Calculator, pen and financial charts on a desk",
+      "intro": "Economic cycles, interest rate changes and market volatility are a normal part of investing. The key is not to predict every move, but to build a wealth strategy that can adapt. Here are practical tips to protect and grow your wealth in a changing economy.",
+      "points": [
+        {
+          "title": "Avoid Emotional Decisions",
+          "text": "Market swings can tempt investors to buy high and sell low. Sticking to a well-defined plan helps you stay calm and avoid decisions that can hurt your long-term returns."
+        },
+        {
+          "title": "Keep Your Portfolio Balanced",
+          "text": "Rebalancing periodically brings your asset allocation back in line with your goals and risk profile, locking in gains and managing risk."
+        },
+        {
+          "title": "Maintain Adequate Liquidity",
+          "text": "Having enough liquid funds means you will not be forced to sell long-term investments at the wrong time to meet short-term needs."
+        },
+        {
+          "title": "Look for Opportunities",
+          "text": "Market corrections can create opportunities to invest in quality assets at better valuations, especially through disciplined, systematic investing."
+        },
+        {
+          "title": "Work with a Trusted Advisor",
+          "text": "An experienced advisor can help you interpret economic changes, adjust your strategy when needed and keep you focused on what matters most."
+        }
+      ],
+      "conclusion": "A changing economy does not have to derail your financial goals. With discipline, balance and expert guidance, you can protect your wealth and continue to grow it. NorthVale Capital is here to help you navigate every market cycle with confidence."
+    }
+  ],
+  "team": [
+    {
+      "slug": "rahul-mehta",
+      "name": "Rahul Mehta",
+      "role": "Founder & Chief Investment Officer",
+      "image": "/team/rahul-mehta.jpg",
+      "portrait": "/team-detail/rahul-mehta-founder-cio.jpg",
+      "email": "rahul@northvalecapital.com",
+      "linkedin": "linkedin.com/in/rahulmehta",
+      "bio": [
+        "Rahul Mehta is the Founder & Chief Investment Officer at NorthVale Capital, with over 15 years of experience in investment advisory, financial planning and wealth management. He is passionate about helping individuals, families and businesses achieve their financial goals through disciplined strategies, deep market insights and a client-first approach.",
+        "Under his leadership, NorthVale Capital has grown into a trusted advisory firm known for its transparency, integrity and personalised financial solutions. Rahul combines industry expertise with a practical, long-term perspective to create strategies that protect wealth today and build opportunities for tomorrow."
+      ],
+      "expertise": [
+        { "icon": "growth", "title": "Wealth Management", "text": "Building and preserving long-term wealth." },
+        { "icon": "pie", "title": "Financial Planning", "text": "Goal-based planning for a secure future." },
+        { "icon": "coins", "title": "Portfolio Advisory", "text": "Diversified strategies for sustainable growth." },
+        { "icon": "document", "title": "Estate Planning", "text": "Wealth transfer with confidence." }
+      ],
+      "education": [
+        { "title": "MBA in Finance", "institute": "Indian Institute of Management (IIM)" },
+        { "title": "Chartered Financial Analyst (CFA)", "institute": "CFA Institute, USA" },
+        { "title": "Certified Financial Planner (CFP)", "institute": "Financial Planning Standards Board" },
+        { "title": "Investment Management Certification", "institute": "Global Association of Risk Professionals (GARP)" }
+      ]
+    },
+    {
+      "slug": "priya-sharma",
+      "name": "Priya Sharma",
+      "role": "Senior Investment Advisor",
+      "image": "/team/priya-sharma.jpg",
+      "portrait": "/team/priya-sharma.jpg",
+      "email": "priya@northvalecapital.com",
+      "linkedin": "linkedin.com/in/priyasharma",
+      "bio": [
+        "Priya Sharma is a Senior Investment Advisor at NorthVale Capital with over a decade of experience helping families and working professionals plan their finances. She specialises in goal-based investing and building diversified portfolios that balance growth with stability.",
+        "Known for her clear communication and patient approach, Priya works closely with every client to understand their priorities and turn them into practical, achievable financial plans."
+      ],
+      "expertise": [
+        { "icon": "pie", "title": "Financial Planning", "text": "Goal-based planning for every life stage." },
+        { "icon": "coins", "title": "Mutual Funds", "text": "Research-backed fund selection." },
+        { "icon": "growth", "title": "Retirement Planning", "text": "Building a reliable retirement corpus." },
+        { "icon": "document", "title": "Tax Planning", "text": "Efficient, compliant tax strategies." }
+      ],
+      "education": [
+        { "title": "MBA in Finance", "institute": "Narsee Monjee Institute of Management Studies" },
+        { "title": "Certified Financial Planner (CFP)", "institute": "Financial Planning Standards Board" },
+        { "title": "NISM Investment Adviser Certification", "institute": "National Institute of Securities Markets" }
+      ]
+    },
+    {
+      "slug": "amit-gupta",
+      "name": "Amit Gupta",
+      "role": "Portfolio Strategy Head",
+      "image": "/team/amit-gupta.jpg",
+      "portrait": "/team/amit-gupta.jpg",
+      "email": "amit@northvalecapital.com",
+      "linkedin": "linkedin.com/in/amitgupta",
+      "bio": [
+        "Amit Gupta leads portfolio strategy at NorthVale Capital. With deep experience in equity research and asset allocation, he designs the investment frameworks that guide our client portfolios across market cycles.",
+        "Amit believes in disciplined, data-driven investing and focuses on managing risk as carefully as he pursues returns."
+      ],
+      "expertise": [
+        { "icon": "growth", "title": "Asset Allocation", "text": "Balancing growth and stability." },
+        { "icon": "coins", "title": "Equity Research", "text": "In-depth analysis of market opportunities." },
+        { "icon": "pie", "title": "Risk Management", "text": "Protecting portfolios across cycles." },
+        { "icon": "document", "title": "Portfolio Reviews", "text": "Regular rebalancing and reporting." }
+      ],
+      "education": [
+        { "title": "MBA in Finance", "institute": "Indian Institute of Management (IIM)" },
+        { "title": "Chartered Financial Analyst (CFA)", "institute": "CFA Institute, USA" },
+        { "title": "Financial Risk Manager (FRM)", "institute": "Global Association of Risk Professionals (GARP)" }
+      ]
+    },
+    {
+      "slug": "neha-kapoor",
+      "name": "Neha Kapoor",
+      "role": "Client Relationship Manager",
+      "image": "/team/neha-kapoor.jpg",
+      "portrait": "/team/neha-kapoor.jpg",
+      "email": "neha@northvalecapital.com",
+      "linkedin": "linkedin.com/in/nehakapoor",
+      "bio": [
+        "Neha Kapoor is the Client Relationship Manager at NorthVale Capital and the first point of contact for many of our clients. She ensures every client receives timely support, clear communication and a seamless experience.",
+        "Neha coordinates closely with our advisory team so that client needs are understood, addressed quickly and reflected in their financial plans."
+      ],
+      "expertise": [
+        { "icon": "pie", "title": "Client Onboarding", "text": "A smooth start to your financial journey." },
+        { "icon": "document", "title": "Service Coordination", "text": "Timely support and documentation." },
+        { "icon": "growth", "title": "Plan Reviews", "text": "Keeping your goals on track." },
+        { "icon": "coins", "title": "Investor Education", "text": "Helping clients make informed choices." }
+      ],
+      "education": [
+        { "title": "MBA in Marketing & Finance", "institute": "Symbiosis Institute of Business Management" },
+        { "title": "NISM Mutual Fund Distributors Certification", "institute": "National Institute of Securities Markets" }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Rahul Mehta",
+      "role": "Business Owner",
+      "image": "/testimonials/rahul-mehta.jpg",
+      "short": "Their team understood my financial goals and created a plan that truly works for me. Highly professional, transparent and always supportive.",
+      "quote": "NorthVale Capital has been instrumental in helping me build a well-diversified portfolio. Their advisory team is knowledgeable, transparent and truly client-focused."
+    },
+    {
+      "name": "Priya Sharma",
+      "role": "Working Professional",
+      "image": "/testimonials/priya-sharma.jpg",
+      "short": "The personalised guidance and clear advice gave me the confidence to plan for my family's future. I highly recommend their services.",
+      "quote": "Their personalized approach and professional guidance gave me the confidence to plan for my family's financial future. Highly recommended!"
+    },
+    {
+      "name": "Amit Gupta",
+      "role": "Entrepreneur",
+      "image": "/testimonials/amit-gupta.jpg",
+      "short": "A trusted partner for long-term financial planning. Their expertise and support have helped me build a secure and stress-free future.",
+      "quote": "A trusted partner for long-term investment planning, NorthVale Capital delivers real value with clear advice and strong support."
+    },
+    {
+      "name": "Neha Kapoor",
+      "role": "Homemaker",
+      "image": "/testimonials/neha-kapoor.jpg",
+      "short": "They helped us structure our retirement plan with ease. Their expertise made the entire process smooth and stress-free.",
+      "quote": "The team at NorthVale Capital helped us structure our retirement plan with ease. Their expertise and insights made the entire process smooth and stress-free."
+    },
+    {
+      "name": "Vikram Singh",
+      "role": "Senior Manager",
+      "image": "/testimonials/vikram-singh.jpg",
+      "short": "I appreciate their ethical approach. They take time to understand your goals and suggest the right solutions.",
+      "quote": "I appreciate their ethical approach and commitment to client success. They take time to understand your goals and suggest the right solutions."
+    },
+    {
+      "name": "Sneha Iyer",
+      "role": "Business Owner",
+      "image": "/testimonials/sneha-iyer.jpg",
+      "short": "Clear guidance and well-planned investment strategies have helped us grow our business wealth steadily.",
+      "quote": "NorthVale Capital provided clear guidance and helped us grow our business wealth with well-planned investment strategies."
+    },
+    {
+      "name": "Karan Malhotra",
+      "role": "IT Professional",
+      "image": "/testimonials/karan-malhotra.jpg",
+      "short": "Professional, reliable and always available for support. They have been a key part of my financial journey.",
+      "quote": "Professional, reliable and always available for support. NorthVale Capital has been a key part of my financial journey."
+    },
+    {
+      "name": "Anjali Desai",
+      "role": "Marketing Head",
+      "image": "/testimonials/anjali-desai.jpg",
+      "short": "Their advice is research-driven and practical. I feel far more confident about my financial future.",
+      "quote": "Their advice is research-driven and practical. I feel more confident about my financial future thanks to their support."
+    },
+    {
+      "name": "Rohit Verma",
+      "role": "Freelancer",
+      "image": "/testimonials/rohit-verma.jpg",
+      "short": "A great experience from start to finish. Transparent communication and expert guidance make them stand out.",
+      "quote": "A great experience from start to finish. Transparent communication and expert guidance make them stand out in the industry."
+    }
+  ]
 }

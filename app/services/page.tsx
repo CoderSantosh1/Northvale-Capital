@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { services } from "../data/services";
+import { services } from "../data/category";
 import PageBanner from "../components/ui/PageBanner";
 import ServiceCard from "../components/cards/ServiceCard";
 import SectionHeading from "../components/ui/SectionHeading";

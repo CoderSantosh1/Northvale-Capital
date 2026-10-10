@@ -1,5 +1,5 @@
 import Image from "next/image";
-import type { Testimonial } from "@/app/data/testimonials";
+import type { Testimonial } from "@/app/data/category";
 import { Quote, Star } from "../ui/Icons";
 
 export function Stars({ className = "" }: { className?: string }) {
