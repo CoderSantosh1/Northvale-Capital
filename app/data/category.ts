@@ -2,6 +2,7 @@ import categoryData from "./category.json";
 import type {
   AppData,
   BlogPost,
+  HeroData,
   NavItem,
   ProcessStep,
   QuickLink,
@@ -12,11 +13,12 @@ import type {
   Testimonial,
 } from "@/types";
 
-export type { AppData, BlogPost, NavItem, ProcessStep, QuickLink, Service, SiteConfig, StatItem, TeamMember, Testimonial } from "@/types";
+export type { AppData, BlogPost, HeroData, NavItem, ProcessStep, QuickLink, Service, SiteConfig, StatItem, TeamMember, Testimonial } from "@/types";
 
 const appData = categoryData as AppData;
 
 export const site: SiteConfig = appData.site;
+export const hero: HeroData = appData.hero;
 export const mainNav: NavItem[] = appData.mainNav as NavItem[];
 export const quickLinks: QuickLink[] = appData.quickLinks as QuickLink[];
 export const stats: StatItem[] = appData.stats as StatItem[];

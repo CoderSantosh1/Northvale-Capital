@@ -36,6 +36,15 @@
       "youtube": "https://www.youtube.com/"
     }
   },
+  "hero": {
+    "eyebrow": "Invest Smarter. Live Brighter.",
+    "headline": ["Strategic", "Investments", "for a Brighter Tomorrow"],
+    "description": "At NorthVale Capital, we help individuals and businesses build, protect, and grow their wealth with expert guidance and personalized investment solutions.",
+    "image": "/home/investment-advisor-hero.jpg",
+    "imageAlt": "Investment advisor planning strategy at his desk overlooking the city skyline",
+    "primaryCta": { "label": "Get a Free Consultation", "href": "/enquire-now" },
+    "secondaryCta": { "label": "Our Services", "href": "/services" }
+  },
   "mainNav": [
     { "label": "Home", "href": "/" },
     { "label": "About Us", "href": "/about" },

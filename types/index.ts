@@ -45,6 +45,16 @@ export type SiteConfig = {
   social: SocialLinks;
 };
 
+export type HeroData = {
+  eyebrow: string;
+  headline: [string, string, string];
+  description: string;
+  image: string;
+  imageAlt: string;
+  primaryCta: QuickLink;
+  secondaryCta: QuickLink;
+};
+
 export type NavItem = {
   label: string;
   href: string;
@@ -133,6 +143,7 @@ export type TeamMember = {
 export type AppData = {
   common: CommonData;
   site: SiteConfig;
+  hero: HeroData;
   mainNav: NavItem[];
   quickLinks: QuickLink[];
   stats: StatItem[];
