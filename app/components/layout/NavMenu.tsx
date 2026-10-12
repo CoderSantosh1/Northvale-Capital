@@ -43,50 +43,50 @@ function TeamAvatar({ src, name, size }: { src: string; name: string; size: numb
   );
 }
 
-function DesktopDropdown({ item }: { item: NavItem }) {
-  if (item.dropdown === "team") {
-    return (
-      <div className={`${panelClass} w-80 p-3`}>
-        <p className="px-3 pt-1 pb-2 font-heading text-[11px] font-bold tracking-[0.2em] text-muted uppercase">
-          Meet Our Experts
-        </p>
-        <ul>
-          {team.map((m) => (
-            <li key={m.slug}>
-              <NavLink href={`/team/${m.slug}`} matchNested={false} className={teamLinkClass}>
-                <TeamAvatar src={m.image} name={m.name} size={44} />
-                <span className="min-w-0">
-                  <span className="block font-heading text-[15px] font-bold text-navy group-hover/member:text-gold">
-                    {m.name}
-                  </span>
-                  <span className="block truncate text-[13px] text-muted">{m.role}</span>
-                </span>
-              </NavLink>
-            </li>
-          ))}
-        </ul>
-        <Link
-          href="/team"
-          className="mt-2 flex items-center justify-center gap-2 rounded-md bg-navy py-2.5 font-heading text-sm font-bold text-white transition-colors hover:bg-gold hover:text-navy"
-        >
-          View Full Team <ArrowRight className="size-4" />
-        </Link>
-      </div>
-    );
-  }
+// function DesktopDropdown({ item }: { item: NavItem }) {
+//   if (item.dropdown === "team") {
+//     return (
+//       <div className={`${panelClass} w-80 p-3`}>
+//         <p className="px-3 pt-1 pb-2 font-heading text-[11px] font-bold tracking-[0.2em] text-muted uppercase">
+//           Meet Our Experts
+//         </p>
+//         <ul>
+//           {team.map((m) => (
+//             <li key={m.slug}>
+//               <NavLink href={`/team/${m.slug}`} matchNested={false} className={teamLinkClass}>
+//                 <TeamAvatar src={m.image} name={m.name} size={44} />
+//                 <span className="min-w-0">
+//                   <span className="block font-heading text-[15px] font-bold text-navy group-hover/member:text-gold">
+//                     {m.name}
+//                   </span>
+//                   <span className="block truncate text-[13px] text-muted">{m.role}</span>
+//                 </span>
+//               </NavLink>
+//             </li>
+//           ))}
+//         </ul>
+//         <Link
+//           href="/team"
+//           className="mt-2 flex items-center justify-center gap-2 rounded-md bg-navy py-2.5 font-heading text-sm font-bold text-white transition-colors hover:bg-gold hover:text-navy"
+//         >
+//           View Full Team <ArrowRight className="size-4" />
+//         </Link>
+//       </div>
+//     );
+//   }
 
-  return (
-    <ul className={`${panelClass} w-64 py-3`}>
-      {services.map((s) => (
-        <li key={s.slug}>
-          <NavLink href={`/services/${s.slug}`} matchNested={false} className={dropdownLinkClass}>
-            {s.title}
-          </NavLink>
-        </li>
-      ))}
-    </ul>
-  );
-}
+//   return (
+//     <ul className={`${panelClass} w-64 py-3`}>
+//       {services.map((s) => (
+//         <li key={s.slug}>
+//           <NavLink href={`/services/${s.slug}`} matchNested={false} className={dropdownLinkClass}>
+//             {s.title}
+//           </NavLink>
+//         </li>
+//       ))}
+//     </ul>
+//   );
+// }
 
 function MobileSubmenu({ item, onNavigate }: { item: NavItem; onNavigate: () => void }) {
   const links: { href: string; label: string; avatar?: ReactNode }[] =
@@ -138,9 +138,9 @@ export default function NavMenu() {
               <li key={item.href} className="group relative">
                 <NavLink href={item.href} className={desktopLinkClass}>
                   {item.label}
-                  <ChevronDown className="size-4 transition-transform group-hover:rotate-180" />
+                  {/* <ChevronDown className="size-4 transition-transform group-hover:rotate-180" /> */}
                 </NavLink>
-                <DesktopDropdown item={item} />
+                {/* <DesktopDropdown item={item} /> */}
               </li>
             ) : (
               <li key={item.href}>
