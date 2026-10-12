@@ -9,7 +9,7 @@ export default function TestimonialsSection() {
       <div className="container-x">
         <div className="flex flex-wrap items-end justify-between gap-6">
           <SectionHeading eyebrow="Testimonials" title="What Our" highlight="Clients Say" />
-          <ButtonLink href="/testimonials" size="sm">
+          <ButtonLink href="/testimonials" size="sm" className="bg-navy text-white hover:bg-gold hover:text-navy">
             View All Testimonials
           </ButtonLink>
         </div>

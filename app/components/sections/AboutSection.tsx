@@ -36,7 +36,7 @@ export default function AboutSection({ showButton = true }: { showButton?: boole
             </p>
           </div>
           {showButton && (
-            <ButtonLink href="/about" className="mt-8">
+            <ButtonLink href="/about" className="mt-8 bg-navy text-white hover:bg-gold hover:text-navy">
               Learn More About Us
             </ButtonLink>
           )}

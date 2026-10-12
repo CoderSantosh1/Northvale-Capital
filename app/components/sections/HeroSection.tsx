@@ -37,7 +37,7 @@ export default function HeroSection() {
             {hero.description}
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
-            <ButtonLink href={hero.primaryCta.href}>{hero.primaryCta.label}</ButtonLink>
+            <ButtonLink href={hero.primaryCta.href} variant="outline" >{hero.primaryCta.label}</ButtonLink>
             <ButtonLink href={hero.secondaryCta.href} variant="outline" arrow={false} className="min-w-[168px]">
               {hero.secondaryCta.label}
             </ButtonLink>

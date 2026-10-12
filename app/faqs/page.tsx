@@ -55,7 +55,7 @@ export default function FaqsPage() {
           </div>
           <div className="mt-12 flex flex-col items-center gap-4 rounded-lg bg-cream p-8 text-center">
             <p className="font-heading text-xl font-bold text-navy">Still have questions?</p>
-            <ButtonLink href="/contact">Contact Our Team</ButtonLink>
+            <ButtonLink href="/contact" className="bg-navy text-white hover:bg-gold hover:text-navy">Contact Our Team</ButtonLink>
           </div>
         </div>
       </section>

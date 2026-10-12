@@ -23,7 +23,7 @@ export default function Header() {
           </Link>
           <NavMenu />
           <div className="hidden lg:block">
-            <ButtonLink href="/enquire-now" size="sm">
+            <ButtonLink href="/enquire-now" className="bg-navy text-white hover:bg-gold hover:text-navy" size="sm">
               Enquire Now
             </ButtonLink>
           </div>

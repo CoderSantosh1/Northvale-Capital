@@ -145,7 +145,7 @@ export default function EnquiryForm({ title, subtitle, withCity = false }: Props
           <button
             type="submit"
             disabled={status === "sending"}
-            className="flex items-center justify-center gap-2.5 rounded-md bg-gold py-3.5 font-heading font-bold text-navy transition-colors hover:bg-gold-600 disabled:opacity-70 sm:col-span-2"
+            className="flex items-center justify-center gap-2.5 rounded-md bg-navy py-3.5 font-heading font-bold text-white hover:text-navy transition-colors hover:bg-gold-600 disabled:opacity-70 sm:col-span-2"
           >
             {status === "sending" ? "Sending..." : "Submit Enquiry"}
             <ArrowRight className="size-4" />

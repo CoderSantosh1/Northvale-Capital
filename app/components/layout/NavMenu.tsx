@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState, type ReactNode } from "react";
 import { mainNav, services, site, team, type NavItem } from "@/app/data/category";
-import { ArrowRight, ChevronDown, Close, Mail, Menu, Phone } from "../ui/Icons";
+import {  ChevronDown, Close, Mail, Menu, Phone } from "../ui/Icons";
 import NavLink from "./NavLink";
 
 const desktopLinkClass = (active: boolean) =>

@@ -13,7 +13,7 @@ export default function ServicesSection() {
             At NorthVale Capital, we offer a comprehensive range of investment advisory services designed to help you
             grow, protect, and manage your wealth with confidence.
           </p>
-          <ButtonLink href="/services" size="sm" className="justify-self-start">
+          <ButtonLink href="/services" size="sm" className="justify-self-start bg-navy text-white hover:bg-gold hover:text-navy">
             All Services
           </ButtonLink>
         </div>

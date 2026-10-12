@@ -20,7 +20,7 @@ export default function BlogSection() {
             highlight="Smarter Financial Decisions"
             inline
           />
-          <ButtonLink href="/blog" size="sm">
+          <ButtonLink href="/blog" size="sm" className="bg-navy text-white hover:bg-gold hover:text-navy">
             View All Blogs
           </ButtonLink>
         </div>
